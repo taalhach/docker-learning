@@ -1,3 +1,4 @@
 .idea
 builds
 /go-http-server/
+.DS_Store

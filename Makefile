@@ -2,7 +2,7 @@
 build-server: clean-server
 	mkdir -p builds/go-http-server
 	git clone git@github.com:taalhach/go-http-server.git
-	cd go-http-server && make build
+	cd go-http-server && make build-linux
 	mv go-http-server/bin/server builds/go-http-server/server
 clean-server:
 	echo "Cleaning server"
